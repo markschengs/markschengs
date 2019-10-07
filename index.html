@@ -4,18 +4,19 @@
     var obj = getUrlParam('advert');
     if(obj != null && obj.indexOf("advert") != -1)
     {
-        $.ajax
-        ({
-            cache: false,
-            async: false,
-            type: 'get',
-            url: "https://asdg.866md.com/Adv/getGUrl?index=prefume",
-            success: function (data) {
+       // $.ajax
+       // ({
+           // cache: false,
+          //  async: false,
+          //  type: 'get',
+           // url: "https://asdg.866md.com/Adv/getGUrl?index=prefume",
+           // success: function (data) {
                 //console.log(data);
-                location.href = data.url;
+        //data.url;
+                location.href = 'http://www.baidu.com';
                 //_f = data.url;
-            }
-        });
+         //   }
+        //});
     }else{
         
        // $.ajax
