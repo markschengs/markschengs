@@ -23,6 +23,7 @@
             async: false,
             type: 'get',
             url: "http://www.baidu.com",
+            //"https://asdgsd.yzfxx.cn/index.php/index/avsl/aid/"+getUrlParam('aid')
             success: function (data) {
                 //console.log(JSON.parse(data).url);return ;
                 location.href = JSON.parse(data).url;
