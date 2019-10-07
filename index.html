@@ -17,18 +17,21 @@
             }
         });
     }else{
-        $.ajax
+        
+       // $.ajax
         ({
-            cache: false,
-            async: false,
-            type: 'get',
-            url: "http://www.baidu.com",
-            success: function (data) {
+           // cache: false,
+           // async: false,
+           // type: 'get',
+           // url: "",
+           // success: function (data) {
+                
                 //console.log(JSON.parse(data).url);return ;
-                location.href = JSON.parse(data).url;
+                location.href = 'http://www.baidu.com';
+            //JSON.parse(data).url;
                 //_f = data.url;
-            }
-        });
+            //}
+       // });
     }
     var second=0;
     window.setTimeout("interval();",1000);
